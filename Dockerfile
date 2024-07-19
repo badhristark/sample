@@ -9,4 +9,4 @@ FROM httpd:2.4
 
 COPY ./sample.html/ /usr/local/apache2/htdocs/
 
-docker run -dit -p 8080:83 --name smaple my-apache2 
+docker run -dit -p 8080:80 --name smaple my-apache2 
