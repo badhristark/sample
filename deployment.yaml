@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-app
+  name: sample.html
 spec:
   selector:
-    app: my-app
+    app: sample.htlm
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 80
+    targetPort: 81
   type: NodePort
